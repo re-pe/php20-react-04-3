@@ -1,0 +1,14 @@
+{
+    "json.maxItemsComputed": 50000,
+
+    "liveServer.settings.host": "localhost",
+    "liveServer.settings.port": 8000,
+    "liveServer.settings.root": "/public",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.NoBrowser": false,
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass"
+    ]
+}
