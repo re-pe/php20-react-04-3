@@ -19,10 +19,25 @@
         "react"
     ],
     "rules": {
+        "function-paren-newline": ["error", "consistent"],
         "indent": ["error", 4],
         "max-len": ["error", {
             "code": 120,
             "ignoreComments": true
+        }],
+        "object-curly-newline": ["error", {
+            "ObjectExpression": {
+                "consistent": true
+            },
+            "ObjectPattern": {
+                "consistent": true
+            },
+            "ImportDeclaration": {
+                "consistent": true
+            },
+            "ExportDeclaration": {
+                "consistent": true
+            }
         }],
         "react/jsx-indent": ["error", 4],
         "react/jsx-indent-props": ["error", 4],
